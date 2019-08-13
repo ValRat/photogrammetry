@@ -1,0 +1,859 @@
+
+> Task :app:externalNativeBuildDebug FAILED
+Build native-lib x86_64
+[0/1] Re-running CMake...
+-- CMAKE_BUILD_TYPE = Debug
+-- VERSION = 2.0.2, BUILD = 
+-- ANDROID=1
+-- ANDROID_ABI=x86_64
+-- ANDROID_AR=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar
+-- ANDROID_ARCH_NAME=x86_64
+-- ANDROID_ARM_MODE=thumb
+-- ANDROID_ASM_COMPILER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- ANDROID_COMPILER_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security
+-- ANDROID_COMPILER_FLAGS_CXX=
+-- ANDROID_COMPILER_FLAGS_DEBUG=-O0 -fno-limit-debug-info
+-- ANDROID_COMPILER_FLAGS_RELEASE=-O2 -DNDEBUG
+-- ANDROID_COMPILER_IS_CLANG=TRUE
+-- ANDROID_CXX_COMPILER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- ANDROID_C_COMPILER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- ANDROID_FUNCTION_LEVEL_LINKING=TRUE
+-- ANDROID_GOLD_LINKER=TRUE
+-- ANDROID_HOST_PREBUILTS=/home/valerian/Android/Sdk/ndk-bundle/prebuilt/linux-x86_64
+-- ANDROID_HOST_TAG=linux-x86_64
+-- ANDROID_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
+-- ANDROID_LINKER_FLAGS_EXE=-Wl,--gc-sections
+-- ANDROID_LLVM_TRIPLE=x86_64-none-linux-android24
+-- ANDROID_NATIVE_API_LEVEL=24
+-- ANDROID_NDK=/home/valerian/Android/Sdk/ndk-bundle
+-- ANDROID_NDK=/home/valerian/Android/Sdk/ndk-bundle
+-- ANDROID_NDK_ABI_NAME=x86_64
+-- ANDROID_NDK_BETA=0
+-- ANDROID_NDK_BUILD=5594570
+-- ANDROID_NDK_HOST_SYSTEM_NAME=linux-x86_64
+-- ANDROID_NDK_HOST_X64=TRUE
+-- ANDROID_NDK_LAYOUT=RELEASE
+-- ANDROID_NDK_MAJOR=20
+-- ANDROID_NDK_MINOR=0
+-- ANDROID_NDK_RELEASE=r20.0.5594570
+-- ANDROID_NDK_REVISION=20.0.5594570
+-- ANDROID_NDK_REVISION_REGEX=^Pkg\.Desc = Android NDK
+Pkg\.Revision = ([0-9]+)\.([0-9]+)\.([0-9]+)(-beta([0-9]+))?
+-- ANDROID_NDK_SOURCE_PROPERTIES=Pkg.Desc = Android NDK
+Pkg.Revision = 20.0.5594570
+-- ANDROID_NDK_TOOLCHAIN_INCLUDED=true
+-- ANDROID_NOEXECSTACK=TRUE
+-- ANDROID_NO_UNDEFINED=TRUE
+-- ANDROID_PIE=TRUE
+-- ANDROID_PLATFORM=android-24
+-- ANDROID_PLATFORM_LEVEL=24
+-- ANDROID_RANLIB=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib
+-- ANDROID_RELRO=TRUE
+-- ANDROID_STL=c++_static
+-- ANDROID_SYSROOT_ABI=x86_64
+-- ANDROID_TOOLCHAIN=clang
+-- ANDROID_TOOLCHAIN_NAME=x86_64-linux-android-clang
+-- ANDROID_TOOLCHAIN_PREFIX=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-
+-- ANDROID_TOOLCHAIN_ROOT=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64
+-- BUILD=
+-- CMAKE_ANDROID_ARCH_ABI=x86_64
+-- CMAKE_ANDROID_ARCH_ABI=x86_64
+-- CMAKE_ANDROID_NDK=/home/valerian/Android/Sdk/ndk-bundle
+-- CMAKE_ANDROID_NDK=/home/valerian/Android/Sdk/ndk-bundle
+-- CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION=clang
+-- CMAKE_ANDROID_STL_TYPE=c++_static
+-- CMAKE_AR=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar
+-- CMAKE_AR=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar
+-- CMAKE_ASM_COMPILER_EXTERNAL_TOOLCHAIN=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64
+-- CMAKE_ASM_COMPILER_TARGET=x86_64-none-linux-android24
+-- CMAKE_ASM_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security 
+-- CMAKE_ASM_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security 
+-- CMAKE_ASM_FLAGS_DEBUG=-O0 -fno-limit-debug-info 
+-- CMAKE_ASM_FLAGS_DEBUG=-O0 -fno-limit-debug-info 
+-- CMAKE_ASM_FLAGS_RELEASE=-O2 -DNDEBUG 
+-- CMAKE_ASM_FLAGS_RELEASE=-O2 -DNDEBUG 
+-- CMAKE_ASM_NASM_COMPILER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/yasm
+-- CMAKE_ASM_NASM_COMPILER_ARG1=-DELF
+-- CMAKE_AUTOMOC_COMPILER_PREDEFINES=ON
+-- CMAKE_AUTOMOC_MACRO_NAMES=Q_OBJECT;Q_GADGET;Q_NAMESPACE
+-- CMAKE_BASE_NAME=clang++
+-- CMAKE_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64
+-- CMAKE_BUILD_TOOL=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-- CMAKE_BUILD_TYPE=Debug
+-- CMAKE_C11_COMPILE_FEATURES=c_std_11;c_static_assert
+-- CMAKE_C11_EXTENSION_COMPILE_OPTION=-std=gnu11
+-- CMAKE_C11_STANDARD_COMPILE_OPTION=-std=c11
+-- CMAKE_C90_COMPILE_FEATURES=c_std_90;c_function_prototypes
+-- CMAKE_C90_EXTENSION_COMPILE_OPTION=-std=gnu90
+-- CMAKE_C90_STANDARD_COMPILE_OPTION=-std=c90
+-- CMAKE_C99_COMPILE_FEATURES=c_std_99;c_restrict;c_variadic_macros
+-- CMAKE_C99_EXTENSION_COMPILE_OPTION=-std=gnu99
+-- CMAKE_C99_STANDARD_COMPILE_OPTION=-std=c99
+-- CMAKE_CACHEFILE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64
+-- CMAKE_CACHE_MAJOR_VERSION=3
+-- CMAKE_CACHE_MINOR_VERSION=10
+-- CMAKE_CACHE_PATCH_VERSION=2
+-- CMAKE_CFG_INTDIR=.
+-- CMAKE_COMMAND=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+-- CMAKE_CPACK_COMMAND=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/bin/cpack
+-- CMAKE_CROSSCOMPILING=TRUE
+-- CMAKE_CTEST_COMMAND=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/bin/ctest
+-- CMAKE_CUDA_IMPLICIT_INCLUDE_DIRECTORIES=/usr/include
+-- CMAKE_CURRENT_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64/libjpeg
+-- CMAKE_CURRENT_LIST_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- CMAKE_CURRENT_LIST_FILE=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/CMakeLists.txt
+-- CMAKE_CURRENT_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- CMAKE_CXX11_COMPILE_FEATURES=cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates
+-- CMAKE_CXX11_EXTENSION_COMPILE_OPTION=-std=gnu++11
+-- CMAKE_CXX11_STANDARD_COMPILE_OPTION=-std=c++11
+-- CMAKE_CXX14_COMPILE_FEATURES=cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates
+-- CMAKE_CXX14_EXTENSION_COMPILE_OPTION=-std=gnu++14
+-- CMAKE_CXX14_STANDARD_COMPILE_OPTION=-std=c++14
+-- CMAKE_CXX17_COMPILE_FEATURES=cxx_std_17
+-- CMAKE_CXX17_EXTENSION_COMPILE_OPTION=-std=gnu++1z
+-- CMAKE_CXX17_STANDARD_COMPILE_OPTION=-std=c++1z
+-- CMAKE_CXX98_COMPILE_FEATURES=cxx_std_98;cxx_template_template_parameters
+-- CMAKE_CXX98_EXTENSION_COMPILE_OPTION=-std=gnu++98
+-- CMAKE_CXX98_STANDARD_COMPILE_OPTION=-std=c++98
+-- CMAKE_CXX_ABI_COMPILED=TRUE
+-- CMAKE_CXX_ARCHIVE_APPEND=<CMAKE_AR> q  <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_APPEND_IPO="/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar" r <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_CREATE_IPO="/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar" cr <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+-- CMAKE_CXX_ARCHIVE_FINISH_IPO="/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib" <TARGET>
+-- CMAKE_CXX_CL_SHOWINCLUDES_PREFIX=
+-- CMAKE_CXX_COMPILER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- CMAKE_CXX_COMPILER_ABI=ELF
+-- CMAKE_CXX_COMPILER_AR=CMAKE_CXX_COMPILER_AR-NOTFOUND
+-- CMAKE_CXX_COMPILER_AR=CMAKE_CXX_COMPILER_AR-NOTFOUND
+-- CMAKE_CXX_COMPILER_ARG1=
+-- CMAKE_CXX_COMPILER_ENV_VAR=CXX
+-- CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64
+-- CMAKE_CXX_COMPILER_ID=Clang
+-- CMAKE_CXX_COMPILER_ID_RUN=1
+-- CMAKE_CXX_COMPILER_LOADED=1
+-- CMAKE_CXX_COMPILER_RANLIB=CMAKE_CXX_COMPILER_RANLIB-NOTFOUND
+-- CMAKE_CXX_COMPILER_RANLIB=CMAKE_CXX_COMPILER_RANLIB-NOTFOUND
+-- CMAKE_CXX_COMPILER_TARGET=x86_64-none-linux-android24
+-- CMAKE_CXX_COMPILER_VERSION=8.0
+-- CMAKE_CXX_COMPILER_VERSION_INTERNAL=
+-- CMAKE_CXX_COMPILER_WORKS=TRUE
+-- CMAKE_CXX_COMPILER_WRAPPER=
+-- CMAKE_CXX_COMPILE_FEATURES=cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates;cxx_std_17
+-- CMAKE_CXX_COMPILE_OBJECT=<CMAKE_CXX_COMPILER>  <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT> -c <SOURCE>
+-- CMAKE_CXX_COMPILE_OPTIONS_EXTERNAL_TOOLCHAIN=--gcc-toolchain=
+-- CMAKE_CXX_COMPILE_OPTIONS_IPO=-flto=thin
+-- CMAKE_CXX_COMPILE_OPTIONS_PIC=-fPIC
+-- CMAKE_CXX_COMPILE_OPTIONS_PIE=-fPIE
+-- CMAKE_CXX_COMPILE_OPTIONS_SYSROOT=--sysroot=
+-- CMAKE_CXX_COMPILE_OPTIONS_TARGET=--target=
+-- CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+-- CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY_INLINES_HIDDEN=-fvisibility-inlines-hidden
+-- CMAKE_CXX_CREATE_ASSEMBLY_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+-- CMAKE_CXX_CREATE_PREPROCESSED_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+-- CMAKE_CXX_CREATE_SHARED_LIBRARY=<CMAKE_CXX_COMPILER> <CMAKE_SHARED_LIBRARY_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+-- CMAKE_CXX_CREATE_SHARED_MODULE=<CMAKE_CXX_COMPILER> <CMAKE_SHARED_LIBRARY_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+-- CMAKE_CXX_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  
+-- CMAKE_CXX_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  
+-- CMAKE_CXX_FLAGS_DEBUG=-O0 -fno-limit-debug-info 
+-- CMAKE_CXX_FLAGS_DEBUG=-O0 -fno-limit-debug-info 
+-- CMAKE_CXX_FLAGS_DEBUG_INIT=-g
+-- CMAKE_CXX_FLAGS_INIT=
+-- CMAKE_CXX_FLAGS_MINSIZEREL=-Os -DNDEBUG
+-- CMAKE_CXX_FLAGS_MINSIZEREL_INIT=-Os -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELEASE=-O2 -DNDEBUG 
+-- CMAKE_CXX_FLAGS_RELEASE=-O2 -DNDEBUG 
+-- CMAKE_CXX_FLAGS_RELEASE_INIT=-O3 -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO_INIT=-O2 -g -DNDEBUG
+-- CMAKE_CXX_IGNORE_EXTENSIONS=inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC
+-- CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES=/usr/include
+-- CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/x86_64;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/x86_64-linux-android/lib64;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/x86_64-linux-android/lib;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib
+-- CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+-- CMAKE_CXX_IMPLICIT_LINK_LIBRARIES=c++;m;gcc;dl;c;gcc;dl
+-- CMAKE_CXX_INFORMATION_LOADED=1
+-- CMAKE_CXX_LIBRARY_ARCHITECTURE=
+-- CMAKE_CXX_LINKER_PREFERENCE=30
+-- CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES=1
+-- CMAKE_CXX_LINK_EXECUTABLE=<CMAKE_CXX_COMPILER>  <FLAGS> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> <OBJECTS>  -o <TARGET> <LINK_LIBRARIES>
+-- CMAKE_CXX_LINK_OPTIONS_IPO=-fuse-ld=gold
+-- CMAKE_CXX_OUTPUT_EXTENSION=.o
+-- CMAKE_CXX_PLATFORM_ID=
+-- CMAKE_CXX_SIMULATE_ID=
+-- CMAKE_CXX_SIMULATE_VERSION=
+-- CMAKE_CXX_SIZEOF_DATA_PTR=8
+-- CMAKE_CXX_SOURCE_FILE_EXTENSIONS=C;M;c++;cc;cpp;cxx;mm;CPP
+-- CMAKE_CXX_STANDARD_COMPUTED_DEFAULT=14
+-- CMAKE_CXX_STANDARD_DEFAULT=14
+-- CMAKE_CXX_STANDARD_LIBRARIES=-latomic -lm
+-- CMAKE_CXX_STANDARD_LIBRARIES_INIT=-latomic -lm
+-- CMAKE_CXX_VERBOSE_FLAG=-v
+-- CMAKE_C_ABI_COMPILED=TRUE
+-- CMAKE_C_ARCHIVE_APPEND=<CMAKE_AR> q  <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_APPEND_IPO="/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar" r <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_CREATE_IPO="/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar" cr <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+-- CMAKE_C_ARCHIVE_FINISH_IPO="/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib" <TARGET>
+-- CMAKE_C_CL_SHOWINCLUDES_PREFIX=
+-- CMAKE_C_COMPILER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- CMAKE_C_COMPILER_ABI=ELF
+-- CMAKE_C_COMPILER_AR=CMAKE_C_COMPILER_AR-NOTFOUND
+-- CMAKE_C_COMPILER_AR=CMAKE_C_COMPILER_AR-NOTFOUND
+-- CMAKE_C_COMPILER_ARG1=
+-- CMAKE_C_COMPILER_ENV_VAR=CC
+-- CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64
+-- CMAKE_C_COMPILER_ID=Clang
+-- CMAKE_C_COMPILER_ID_RUN=1
+-- CMAKE_C_COMPILER_LOADED=1
+-- CMAKE_C_COMPILER_RANLIB=CMAKE_C_COMPILER_RANLIB-NOTFOUND
+-- CMAKE_C_COMPILER_RANLIB=CMAKE_C_COMPILER_RANLIB-NOTFOUND
+-- CMAKE_C_COMPILER_TARGET=x86_64-none-linux-android24
+-- CMAKE_C_COMPILER_VERSION=8.0
+-- CMAKE_C_COMPILER_VERSION_INTERNAL=
+-- CMAKE_C_COMPILER_WORKS=TRUE
+-- CMAKE_C_COMPILER_WRAPPER=
+-- CMAKE_C_COMPILE_FEATURES=c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert
+-- CMAKE_C_COMPILE_OBJECT=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT>   -c <SOURCE>
+-- CMAKE_C_COMPILE_OPTIONS_EXTERNAL_TOOLCHAIN=--gcc-toolchain=
+-- CMAKE_C_COMPILE_OPTIONS_IPO=-flto=thin
+-- CMAKE_C_COMPILE_OPTIONS_PIC=-fPIC
+-- CMAKE_C_COMPILE_OPTIONS_PIE=-fPIE
+-- CMAKE_C_COMPILE_OPTIONS_SYSROOT=--sysroot=
+-- CMAKE_C_COMPILE_OPTIONS_TARGET=--target=
+-- CMAKE_C_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+-- CMAKE_C_CREATE_ASSEMBLY_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+-- CMAKE_C_CREATE_PREPROCESSED_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+-- CMAKE_C_CREATE_SHARED_LIBRARY=<CMAKE_C_COMPILER> <CMAKE_SHARED_LIBRARY_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+-- CMAKE_C_CREATE_SHARED_MODULE=<CMAKE_C_COMPILER> <CMAKE_SHARED_LIBRARY_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+-- CMAKE_C_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security 
+-- CMAKE_C_FLAGS=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security 
+-- CMAKE_C_FLAGS_DEBUG=-O0 -fno-limit-debug-info 
+-- CMAKE_C_FLAGS_DEBUG=-O0 -fno-limit-debug-info 
+-- CMAKE_C_FLAGS_DEBUG_INIT=-g
+-- CMAKE_C_FLAGS_INIT=
+-- CMAKE_C_FLAGS_MINSIZEREL=-Os -DNDEBUG
+-- CMAKE_C_FLAGS_MINSIZEREL_INIT=-Os -DNDEBUG
+-- CMAKE_C_FLAGS_RELEASE=-O2 -DNDEBUG 
+-- CMAKE_C_FLAGS_RELEASE=-O2 -DNDEBUG 
+-- CMAKE_C_FLAGS_RELEASE_INIT=-O3 -DNDEBUG
+-- CMAKE_C_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+-- CMAKE_C_FLAGS_RELWITHDEBINFO_INIT=-O2 -g -DNDEBUG
+-- CMAKE_C_IGNORE_EXTENSIONS=h;H;o;O;obj;OBJ;def;DEF;rc;RC
+-- CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES=/usr/include
+-- CMAKE_C_IMPLICIT_LINK_DIRECTORIES=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/x86_64;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/x86_64-linux-android/lib64;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/x86_64-linux-android/lib;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib
+-- CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+-- CMAKE_C_IMPLICIT_LINK_LIBRARIES=gcc;dl;c;gcc;dl
+-- CMAKE_C_INFORMATION_LOADED=1
+-- CMAKE_C_LIBRARY_ARCHITECTURE=
+-- CMAKE_C_LINKER_PREFERENCE=10
+-- CMAKE_C_LINK_EXECUTABLE=<CMAKE_C_COMPILER> <FLAGS> <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> <OBJECTS>  -o <TARGET> <LINK_LIBRARIES>
+-- CMAKE_C_LINK_OPTIONS_IPO=-fuse-ld=gold
+-- CMAKE_C_OUTPUT_EXTENSION=.o
+-- CMAKE_C_PLATFORM_ID=
+-- CMAKE_C_SIMULATE_ID=
+-- CMAKE_C_SIMULATE_VERSION=
+-- CMAKE_C_SIZEOF_DATA_PTR=8
+-- CMAKE_C_SOURCE_FILE_EXTENSIONS=c;m
+-- CMAKE_C_STANDARD_COMPUTED_DEFAULT=11
+-- CMAKE_C_STANDARD_DEFAULT=11
+-- CMAKE_C_STANDARD_LIBRARIES=-latomic -lm
+-- CMAKE_C_STANDARD_LIBRARIES_INIT=-latomic -lm
+-- CMAKE_C_VERBOSE_FLAG=-v
+-- CMAKE_DEPFILE_FLAGS_C=-MD -MT <OBJECT> -MF <DEPFILE>
+-- CMAKE_DEPFILE_FLAGS_CXX=-MD -MT <OBJECT> -MF <DEPFILE>
+-- CMAKE_DL_LIBS=dl
+-- CMAKE_EXECUTABLE_RPATH_LINK_CXX_FLAG=-Wl,-rpath-link,
+-- CMAKE_EXECUTABLE_RPATH_LINK_C_FLAG=-Wl,-rpath-link,
+-- CMAKE_EXECUTABLE_RUNTIME_CXX_FLAG_SEP=:
+-- CMAKE_EXECUTABLE_RUNTIME_C_FLAG_SEP=:
+-- CMAKE_EXECUTABLE_SUFFIX=
+-- CMAKE_EXE_EXPORTS_CXX_FLAG=-Wl,--export-dynamic
+-- CMAKE_EXE_EXPORTS_C_FLAG=-Wl,--export-dynamic
+-- CMAKE_EXE_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections 
+-- CMAKE_EXE_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections 
+-- CMAKE_EXE_LINKER_FLAGS_DEBUG=
+-- CMAKE_EXE_LINKER_FLAGS_DEBUG_INIT=
+-- CMAKE_EXE_LINKER_FLAGS_INIT=
+-- CMAKE_EXE_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_EXE_LINKER_FLAGS_MINSIZEREL_INIT=
+-- CMAKE_EXE_LINKER_FLAGS_RELEASE=
+-- CMAKE_EXE_LINKER_FLAGS_RELEASE_INIT=
+-- CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+-- CMAKE_EXE_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+-- CMAKE_EXE_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+-- CMAKE_EXE_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+-- CMAKE_EXE_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+-- CMAKE_EXPORT_COMPILE_COMMANDS=ON
+-- CMAKE_EXTRA_GENERATOR=
+-- CMAKE_FILES_DIRECTORY=/CMakeFiles
+-- CMAKE_FIND_LIBRARY_PREFIXES=lib
+-- CMAKE_FIND_LIBRARY_SUFFIXES=.so;.a
+-- CMAKE_FIND_ROOT_PATH=/home/valerian/Android/Sdk/ndk-bundle
+-- CMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY
+-- CMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY
+-- CMAKE_FIND_ROOT_PATH_MODE_PACKAGE=ONLY
+-- CMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER
+-- CMAKE_GENERATOR=Ninja
+-- CMAKE_GENERATOR_PLATFORM=
+-- CMAKE_GENERATOR_TOOLSET=
+-- CMAKE_HOME_DIRECTORY=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp
+-- CMAKE_HOST_SYSTEM=Linux-4.15.0-54-generic
+-- CMAKE_HOST_SYSTEM_NAME=Linux
+-- CMAKE_HOST_SYSTEM_PROCESSOR=x86_64
+-- CMAKE_HOST_SYSTEM_VERSION=4.15.0-54-generic
+-- CMAKE_HOST_UNIX=1
+-- CMAKE_INCLUDE_FLAG_C=-I
+-- CMAKE_INCLUDE_FLAG_CXX=-I
+-- CMAKE_INCLUDE_FLAG_C_SEP=
+-- CMAKE_INCLUDE_SYSTEM_FLAG_C=-isystem 
+-- CMAKE_INCLUDE_SYSTEM_FLAG_CXX=-isystem 
+-- CMAKE_INSTALL_DEFAULT_COMPONENT_NAME=Unspecified
+-- CMAKE_INSTALL_PREFIX=/usr/local
+-- CMAKE_INSTALL_SO_NO_EXE=1
+-- CMAKE_INTERNAL_PLATFORM_ABI=ELF
+-- CMAKE_LIBRARY_ARCHITECTURE=x86_64-linux-android
+-- CMAKE_LIBRARY_ARCHITECTURE_REGEX=[a-z0-9_]+(-[a-z0-9_]+)?-linux-gnu[a-z0-9_]*
+-- CMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/build/intermediates/cmake/debug/obj/x86_64
+-- CMAKE_LIBRARY_PATH_FLAG=-L
+-- CMAKE_LIBRARY_PATH_TERMINATOR=
+-- CMAKE_LINKER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ld
+-- CMAKE_LINKER=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ld
+-- CMAKE_LINK_LIBRARY_FLAG=-l
+-- CMAKE_LINK_LIBRARY_SUFFIX=
+-- CMAKE_MAJOR_VERSION=3
+-- CMAKE_MAKE_PROGRAM=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-- CMAKE_MATCH_0=2.1 98
+-- CMAKE_MATCH_1=
+-- CMAKE_MATCH_2=
+-- CMAKE_MATCH_3=
+-- CMAKE_MATCH_COUNT=0
+-- CMAKE_MINIMUM_REQUIRED_VERSION=2.8.12
+-- CMAKE_MINOR_VERSION=10
+-- CMAKE_MODULE_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack 
+-- CMAKE_MODULE_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack 
+-- CMAKE_MODULE_LINKER_FLAGS_DEBUG=
+-- CMAKE_MODULE_LINKER_FLAGS_DEBUG_INIT=
+-- CMAKE_MODULE_LINKER_FLAGS_INIT=
+-- CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL_INIT=
+-- CMAKE_MODULE_LINKER_FLAGS_RELEASE=
+-- CMAKE_MODULE_LINKER_FLAGS_RELEASE_INIT=
+-- CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+-- CMAKE_NM=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-nm
+-- CMAKE_NUMBER_OF_MAKEFILES=3
+-- CMAKE_OBJCOPY=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-objcopy
+-- CMAKE_OBJDUMP=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-objdump
+-- CMAKE_PARENT_LIST_FILE=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/CMakeLists.txt
+-- CMAKE_PATCH_VERSION=2
+-- CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES=/lib;/lib32;/lib64;/usr/lib;/usr/lib32;/usr/lib64
+-- CMAKE_PLATFORM_INFO_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/3.10.2
+-- CMAKE_PLATFORM_INFO_INITIALIZED=1
+-- CMAKE_PLATFORM_NO_VERSIONED_SONAME=1
+-- CMAKE_PLATFORM_USES_PATH_WHEN_NO_SONAME=1
+-- CMAKE_POSITION_INDEPENDENT_CODE=TRUE
+-- CMAKE_PROJECT_NAME=Project
+-- CMAKE_RANLIB=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib
+-- CMAKE_RANLIB=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib
+-- CMAKE_ROOT=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10
+-- CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS=-shared
+-- CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS=-shared
+-- CMAKE_SHARED_LIBRARY_CXX_FLAGS=-fPIC
+-- CMAKE_SHARED_LIBRARY_C_FLAGS=-fPIC
+-- CMAKE_SHARED_LIBRARY_LINK_C_FLAGS=
+-- CMAKE_SHARED_LIBRARY_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_LIBRARY_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_LIBRARY_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_LIBRARY_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_LIBRARY_PREFIX=lib
+-- CMAKE_SHARED_LIBRARY_RPATH_LINK_CXX_FLAG=-Wl,-rpath-link,
+-- CMAKE_SHARED_LIBRARY_RPATH_LINK_C_FLAG=-Wl,-rpath-link,
+-- CMAKE_SHARED_LIBRARY_RUNTIME_CXX_FLAG_SEP=:
+-- CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG=
+-- CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG_SEP=:
+-- CMAKE_SHARED_LIBRARY_SONAME_CXX_FLAG=-Wl,-soname,
+-- CMAKE_SHARED_LIBRARY_SONAME_C_FLAG=-Wl,-soname,
+-- CMAKE_SHARED_LIBRARY_SUFFIX=.so
+-- CMAKE_SHARED_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack 
+-- CMAKE_SHARED_LINKER_FLAGS=-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack 
+-- CMAKE_SHARED_LINKER_FLAGS_DEBUG=
+-- CMAKE_SHARED_LINKER_FLAGS_DEBUG_INIT=
+-- CMAKE_SHARED_LINKER_FLAGS_INIT=
+-- CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL_INIT=
+-- CMAKE_SHARED_LINKER_FLAGS_RELEASE=
+-- CMAKE_SHARED_LINKER_FLAGS_RELEASE_INIT=
+-- CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+-- CMAKE_SHARED_MODULE_CREATE_CXX_FLAGS=-shared
+-- CMAKE_SHARED_MODULE_CREATE_C_FLAGS=-shared
+-- CMAKE_SHARED_MODULE_CXX_FLAGS=-fPIC
+-- CMAKE_SHARED_MODULE_C_FLAGS=-fPIC
+-- CMAKE_SHARED_MODULE_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_MODULE_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_MODULE_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_MODULE_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_MODULE_PREFIX=lib
+-- CMAKE_SHARED_MODULE_SUFFIX=.so
+-- CMAKE_SIZEOF_VOID_P=8
+-- CMAKE_SKIP_INSTALL_RPATH=NO
+-- CMAKE_SKIP_RPATH=NO
+-- CMAKE_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp
+-- CMAKE_STATIC_LIBRARY_PREFIX=lib
+-- CMAKE_STATIC_LIBRARY_SUFFIX=.a
+-- CMAKE_STATIC_LINKER_FLAGS=
+-- CMAKE_STATIC_LINKER_FLAGS_DEBUG=
+-- CMAKE_STATIC_LINKER_FLAGS_DEBUG_INIT=
+-- CMAKE_STATIC_LINKER_FLAGS_INIT=
+-- CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL_INIT=
+-- CMAKE_STATIC_LINKER_FLAGS_RELEASE=
+-- CMAKE_STATIC_LINKER_FLAGS_RELEASE_INIT=
+-- CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+-- CMAKE_STRIP=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-strip
+-- CMAKE_SYSROOT=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+-- CMAKE_SYSTEM=Android-1
+-- CMAKE_SYSTEM_INCLUDE_PATH=/usr/include/X11
+-- CMAKE_SYSTEM_INFO_FILE=Platform/Android
+-- CMAKE_SYSTEM_LIBRARY_PATH=/usr/lib/x86_64-linux-android/24;/usr/lib/X11
+-- CMAKE_SYSTEM_LOADED=1
+-- CMAKE_SYSTEM_NAME=Android
+-- CMAKE_SYSTEM_NAME=Android
+-- CMAKE_SYSTEM_PREFIX_PATH=/usr/local;/usr;/;/home/valerian/Android/Sdk/cmake/3.10.2.4988404;/usr/local;/usr/X11R6;/usr/pkg;/opt
+-- CMAKE_SYSTEM_PROCESSOR=x86_64
+-- CMAKE_SYSTEM_SPECIFIC_INFORMATION_LOADED=1
+-- CMAKE_SYSTEM_SPECIFIC_INITIALIZE_LOADED=1
+-- CMAKE_SYSTEM_VERSION=1
+-- CMAKE_SYSTEM_VERSION=1
+-- CMAKE_TOOLCHAIN_FILE=/home/valerian/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-- CMAKE_TRY_COMPILE_PLATFORM_VARIABLES=ANDROID_TOOLCHAIN;ANDROID_ABI;ANDROID_PLATFORM;ANDROID_STL;ANDROID_PIE;ANDROID_CPP_FEATURES;ANDROID_ALLOW_UNDEFINED_SYMBOLS;ANDROID_ARM_MODE;ANDROID_ARM_NEON;ANDROID_DISABLE_FORMAT_STRING_CHECKS;ANDROID_CCACHE
+-- CMAKE_TWEAK_VERSION=0
+-- CMAKE_UNAME=/bin/uname
+-- CMAKE_VERBOSE_MAKEFILE=FALSE
+-- CMAKE_VERSION=3.10.2
+-- LOCAL_ASMFLAGS=-DELF;-D__x86_64__
+-- LOCAL_CFLAGS=-DSIZEOF_SIZE_T=8;-DBUILD="20181112";-DPACKAGE_NAME="libjpeg-turbo";-DVERSION="2.0.1";-DLIBJPEG_TURBO_VERSION="2.0.1";-DJPEG_LIB_VERSION=62;-DC_ARITH_CODING_SUPPORTED=1;-DD_ARITH_CODING_SUPPORTED=1;-DBITS_IN_JSAMPLE=8;-DHAVE_DLFCN_H=1;-DHAVE_INTTYPES_H=1;-DHAVE_LOCALE_H=1;-DHAVE_MEMCPY=1;-DHAVE_MEMORY_H=1;-DHAVE_MEMSET=1;-DHAVE_STDDEF_H=1;-DHAVE_STDINT_H=1;-DHAVE_STDLIB_H=1;-DHAVE_STRINGS_H=1;-DHAVE_STRING_H=1;-DHAVE_SYS_STAT_H=1;-DHAVE_SYS_TYPES_H=1;-DHAVE_UNISTD_H=1;-DHAVE_UNSIGNED_CHAR=1;-DHAVE_UNSIGNED_SHORT=1;-DINLINE="inline;__attribute__((always_inline))";-DMEM_SRCDST_SUPPORTED=1;-DNEED_SYS_TYPES_H=1;-DSTDC_HEADERS=1;-DWITH_SIMD=1
+-- LOCAL_C_INCLUDES=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- LOCAL_EXPORT_C_INCLUDES=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- LOCAL_SRC_FILES=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jsimd.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jfdctflt-sse.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jfdctfst-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jfdctint-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jfdctint-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jidctflt-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jidctfst-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jidctint-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jidctint-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jidctred-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jccolor-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jccolor-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jcgray-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jcgray-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jcsample-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jcsample-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jdcolor-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jdcolor-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jdmerge-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jdmerge-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jdsample-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jdsample-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jquantf-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jquanti-avx2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jquanti-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jsimdcpu.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jchuff-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jcphuff-sse2.asm;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapimin.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapistd.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccoefct.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jchuff.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcinit.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcmainct.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcmarker.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcmaster.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcomapi.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcparam.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcphuff.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcprepct.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcsample.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jctrans.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdapimin.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdapistd.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdatadst.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdatasrc.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdcoefct.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdcolor.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jddctmgr.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdhuff.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdinput.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdmainct.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdmarker.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdmaster.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdmerge.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdphuff.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdpostct.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdsample.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdtrans.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jerror.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jfdctflt.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jfdctfst.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jfdctint.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jidctflt.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jidctfst.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jidctint.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jidctred.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jquant1.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jquant2.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jutils.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jmemmgr.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jmemnobs.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jaricom.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcarith.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdarith.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/turbojpeg.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/transupp.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdatadst-tj.c;/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jdatasrc-tj.c
+-- NDK_MAX_PLATFORM_LEVEL=29
+-- NDK_MIN_PLATFORM_LEVEL=16
+-- NDK_PLATFORM_ALIAS_20=android-19
+-- NDK_PLATFORM_ALIAS_25=android-24
+-- NDK_PLATFORM_ALIAS_J=android-16
+-- NDK_PLATFORM_ALIAS_J-MR1=android-17
+-- NDK_PLATFORM_ALIAS_J-MR2=android-18
+-- NDK_PLATFORM_ALIAS_K=android-19
+-- NDK_PLATFORM_ALIAS_L=android-21
+-- NDK_PLATFORM_ALIAS_L-MR1=android-22
+-- NDK_PLATFORM_ALIAS_M=android-23
+-- NDK_PLATFORM_ALIAS_N=android-24
+-- NDK_PLATFORM_ALIAS_N-MR1=android-24
+-- NDK_PLATFORM_ALIAS_O=android-26
+-- NDK_PLATFORM_ALIAS_O-MR1=android-27
+-- NDK_PLATFORM_ALIAS_P=android-28
+-- NDK_PLATFORM_ALIAS_Q=android-29
+-- PROJECT_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64/libjpeg
+-- PROJECT_NAME=libjpeg
+-- PROJECT_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- Project_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64
+-- Project_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp
+-- RUN_CONFIGURE=ON
+-- UNIX=1
+-- VERSION=2.0.2
+-- X86_64=TRUE
+-- _CMAKE_CXX_IPO_MAY_BE_SUPPORTED_BY_COMPILER=YES
+-- _CMAKE_CXX_IPO_SUPPORTED_BY_CMAKE=YES
+-- _CMAKE_C_IPO_MAY_BE_SUPPORTED_BY_COMPILER=YES
+-- _CMAKE_C_IPO_SUPPORTED_BY_CMAKE=YES
+-- _CMAKE_INSTALL_DIR=/home/valerian/Android/Sdk/cmake/3.10.2.4988404
+-- _CMAKE_LTO_THIN=TRUE
+-- _CMAKE_TOOLCHAIN_PREFIX=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-
+-- _INCLUDED_FILE=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake
+-- _INCLUDED_SYSTEM_INFO_FILE=/home/valerian/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake
+-- _IN_TC=0
+-- __ANDROID_COMPILER_CLANG=1
+-- __COMPILER_CLANG=1
+-- __COMPILER_CMAKE_COMMON_COMPILER_MACROS=1
+-- __COMPILER_GNU=1
+-- __UNIX_PATHS_INCLUDED=1
+-- __ar=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar
+-- __is_apple_clang=0
+-- __lto_flags=-flto;-fno-fat-lto-objects
+-- __ranlib=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib
+-- appleClangPolicy=NEW
+-- c=
+-- f=
+-- jpeg_lib_src_DIR=libjpeg
+-- libjpeg-turbo_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64/libjpeg
+-- libjpeg-turbo_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- libjpeg_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64/libjpeg
+-- libjpeg_LIB_DEPENDS=
+-- libjpeg_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- libpng_BINARY_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64/libpng
+-- libpng_LIB_DEPENDS=general;/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libz.a;
+-- libpng_SOURCE_DIR=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libpng
+-- libz-lib=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libz.a
+-- log-lib=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so
+-- native-lib_LIB_DEPENDS=
+-- project_name=libjpeg
+-- source_dir=/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg
+-- t=
+-- type=
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/valerian/AndroidStudioProjects/Phonogrammetry/app/.externalNativeBuild/cmake/debug/x86_64
+[1/56] Building C object libjpeg/CMakeFiles/libjpeg.dir/jcapimin.c.o
+FAILED: libjpeg/CMakeFiles/libjpeg.dir/jcapimin.c.o 
+/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android24 --gcc-toolchain=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT libjpeg/CMakeFiles/libjpeg.dir/jcapimin.c.o -MF libjpeg/CMakeFiles/libjpeg.dir/jcapimin.c.o.d -o libjpeg/CMakeFiles/libjpeg.dir/jcapimin.c.o   -c /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapimin.c
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapimin.c:25:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:69:9: error: unknown type name 'JSAMPLE'
+typedef JSAMPLE *JSAMPROW;      /* ptr to one image row of pixel samples. */
+        ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:658:3: error: unknown type name 'JSAMPLE'
+  JSAMPLE *sample_range_limit;  /* table for fast range-limiting */
+  ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapimin.c:40:18: error: use of undeclared identifier 'JPEG_LIB_VERSION'; did you mean 'JMSG_VERSION'?
+  if (version != JPEG_LIB_VERSION)
+                 ^~~~~~~~~~~~~~~~
+                 JMSG_VERSION
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jerror.h:138:10: note: 'JMSG_VERSION' declared here
+JMESSAGE(JMSG_VERSION, JVERSION)
+         ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapimin.c:41:43: error: use of undeclared identifier 'JPEG_LIB_VERSION'; did you mean 'JMSG_VERSION'?
+    ERREXIT2(cinfo, JERR_BAD_LIB_VERSION, JPEG_LIB_VERSION, version);
+                                          ^~~~~~~~~~~~~~~~
+                                          JMSG_VERSION
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jerror.h:239:35: note: expanded from macro 'ERREXIT2'
+   (cinfo)->err->msg_parm.i[0] = (p1), \
+                                  ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jerror.h:138:10: note: 'JMSG_VERSION' declared here
+JMESSAGE(JMSG_VERSION, JVERSION)
+         ^
+4 errors generated.
+[2/56] Building C object libjpeg/CMakeFiles/libjpeg.dir/jcapistd.c.o
+FAILED: libjpeg/CMakeFiles/libjpeg.dir/jcapistd.c.o 
+/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android24 --gcc-toolchain=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT libjpeg/CMakeFiles/libjpeg.dir/jcapistd.c.o -MF libjpeg/CMakeFiles/libjpeg.dir/jcapistd.c.o.d -o libjpeg/CMakeFiles/libjpeg.dir/jcapistd.c.o   -c /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapistd.c
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcapistd.c:20:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:69:9: error: unknown type name 'JSAMPLE'
+typedef JSAMPLE *JSAMPROW;      /* ptr to one image row of pixel samples. */
+        ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:658:3: error: unknown type name 'JSAMPLE'
+  JSAMPLE *sample_range_limit;  /* table for fast range-limiting */
+  ^
+2 errors generated.
+[3/56] Building C object libjpeg/CMakeFiles/libjpeg.dir/jccoefct.c.o
+FAILED: libjpeg/CMakeFiles/libjpeg.dir/jccoefct.c.o 
+/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android24 --gcc-toolchain=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT libjpeg/CMakeFiles/libjpeg.dir/jccoefct.c.o -MF libjpeg/CMakeFiles/libjpeg.dir/jccoefct.c.o.d -o libjpeg/CMakeFiles/libjpeg.dir/jccoefct.c.o   -c /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccoefct.c
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccoefct.c:18:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:69:9: error: unknown type name 'JSAMPLE'
+typedef JSAMPLE *JSAMPROW;      /* ptr to one image row of pixel samples. */
+        ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:658:3: error: unknown type name 'JSAMPLE'
+  JSAMPLE *sample_range_limit;  /* table for fast range-limiting */
+  ^
+2 errors generated.
+[4/56] Building C object libjpeg/CMakeFiles/libjpeg.dir/jccolor.c.o
+FAILED: libjpeg/CMakeFiles/libjpeg.dir/jccolor.c.o 
+/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android24 --gcc-toolchain=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT libjpeg/CMakeFiles/libjpeg.dir/jccolor.c.o -MF libjpeg/CMakeFiles/libjpeg.dir/jccolor.c.o.d -o libjpeg/CMakeFiles/libjpeg.dir/jccolor.c.o   -c /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:18:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:69:9: error: unknown type name 'JSAMPLE'
+typedef JSAMPLE *JSAMPROW;      /* ptr to one image row of pixel samples. */
+        ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:658:3: error: unknown type name 'JSAMPLE'
+  JSAMPLE *sample_range_limit;  /* table for fast range-limiting */
+  ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:20:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:20:2: error: invalid preprocessing directive
+#cmakedefine HAVE_BUILTIN_CTZL
+ ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:23:2: error: invalid preprocessing directive
+#cmakedefine HAVE_INTRIN_H
+ ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:90:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:30:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:90:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:84:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:90:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:120:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:103:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:30:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:103:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:84:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:103:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:120:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:119:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:30:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:119:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:84:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:119:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:120:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:135:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:30:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:135:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:84:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:135:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:120:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:151:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:30:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:151:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:84:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolor.c:151:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jccolext.c:120:1: error: expected identifier or '('
+INLINE
+^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:8:17: note: expanded from macro 'INLINE'
+#define INLINE  @INLINE@
+                ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[5/56] Building C object libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o
+FAILED: libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o 
+/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android24 --gcc-toolchain=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o -MF libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o.d -o libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o   -c /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:21:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:69:9: error: unknown type name 'JSAMPLE'
+typedef JSAMPLE *JSAMPROW;      /* ptr to one image row of pixel samples. */
+        ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jpeglib.h:658:3: error: unknown type name 'JSAMPLE'
+  JSAMPLE *sample_range_limit;  /* table for fast range-limiting */
+  ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: warning: implicit declaration of function 'GETJSAMPLE' is invalid in C99 [-Wimplicit-function-declaration]
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:385:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:385:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:386:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:386:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:387:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:387:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:388:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:388:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:389:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:389:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:390:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:390:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:391:48: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                                               ^~~~~~~~~~~~~
+                                               GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:391:46: error: invalid operands to binary expression ('int' and 'int ()')
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:536:36: warning: implicit declaration of function 'GETJSAMPLE' is invalid in C99 [-Wimplicit-function-declaration]
+    *workspaceptr++ = (FAST_FLOAT)(GETJSAMPLE(*elemptr++) - CENTERJSAMPLE);
+                                   ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:536:61: error: use of undeclared identifier 'CENTERJSAMPLE'; did you mean 'GETJSAMPLE'?
+    *workspaceptr++ = (FAST_FLOAT)(GETJSAMPLE(*elemptr++) - CENTERJSAMPLE);
+                                                            ^~~~~~~~~~~~~
+                                                            GETJSAMPLE
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jcdctmgr.c:384:23: note: 'GETJSAMPLE' declared here
+    *workspaceptr++ = GETJSAMPLE(*elemptr++) - CENTERJSAMPLE;
+                      ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+2 warnings and 20 errors generated.
+[6/56] Building C object libjpeg/CMakeFiles/libjpeg.dir/simd/x86_64/jsimd.c.o
+FAILED: libjpeg/CMakeFiles/libjpeg.dir/simd/x86_64/jsimd.c.o 
+/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android24 --gcc-toolchain=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/valerian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/../include -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/nasm -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/loongson -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/mips -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/powerpc -I/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT libjpeg/CMakeFiles/libjpeg.dir/simd/x86_64/jsimd.c.o -MF libjpeg/CMakeFiles/libjpeg.dir/simd/x86_64/jsimd.c.o.d -o libjpeg/CMakeFiles/libjpeg.dir/simd/x86_64/jsimd.c.o   -c /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jsimd.c
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jsimd.c:19:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../../jpeglib.h:69:9: error: unknown type name 'JSAMPLE'
+typedef JSAMPLE *JSAMPROW;      /* ptr to one image row of pixel samples. */
+        ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../../jpeglib.h:658:3: error: unknown type name 'JSAMPLE'
+  JSAMPLE *sample_range_limit;  /* table for fast range-limiting */
+  ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jsimd.c:23:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:767:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:770:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:773:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:776:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:779:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:782:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:785:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:789:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:792:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:795:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:798:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:801:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:804:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:807:27: error: unknown type name 'JSAMPLE'
+   JSAMPARRAY output_buf, JSAMPLE *range);
+                          ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/../jsimd.h:1012:59: error: unknown type name 'JSAMPLE'
+  (void *dct_table, JCOEFPTR coef_block, int *output_buf, JSAMPLE *output_col);
+                                                          ^
+In file included from /home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/simd/x86_64/jsimd.c:24:
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:20:2: error: invalid preprocessing directive
+#cmakedefine HAVE_BUILTIN_CTZL
+ ^
+/home/valerian/AndroidStudioProjects/Phonogrammetry/app/src/main/cpp/libjpeg/jconfigint.h:23:2: error: invalid preprocessing directive
+#cmakedefine HAVE_INTRIN_H
+ ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+14 actionable tasks: 1 executed, 13 up-to-date
